@@ -1,5 +1,5 @@
-const int SW_ON = 12;   // Switch SW_ON PIN 12
-const int SW_OFF = 13;  // Switch SW_OFF PIN 13
+const int SW_ON = 13;   // Switch SW_ON PIN 13
+const int SW_OFF = 12;  // Switch SW_OFF PIN 12
 const int Fan = 19;     // Fan PIN 19
 
 int buttonState_Red;

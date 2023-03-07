@@ -9,7 +9,7 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(Motor1_A, HIGH); //สั่งพอร์ต digital ให้เป็น HIGH
-  digitalWrite(Motor1_B, LOW);  //สั่งพอร์ต digital ให้เป็น LOW
-  analogWrite(Motor1_PWM, 255); //สั่งพอร์ต PWM
+  digitalWrite(Motor1_A, LOW); //สั่งพอร์ต digital ให้เป็น HIGH
+  digitalWrite(Motor1_B, HIGH);  //สั่งพอร์ต digital ให้เป็น LOW
+  analogWrite(Motor1_PWM, 100); //สั่งพอร์ต PWM
 }

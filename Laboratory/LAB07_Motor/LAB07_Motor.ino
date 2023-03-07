@@ -1,6 +1,6 @@
-#define Motor1_A 4     //กำหนดพอร์ต
-#define Motor1_B 5
-#define Motor1_PWM 6
+#define Motor1_A 8     //กำหนดพอร์ต
+#define Motor1_B 7
+#define Motor1_PWM 9
 
 void setup() {
   pinMode(Motor1_A, OUTPUT);    //กำหนดให้เป็น Output
